@@ -1,0 +1,14 @@
+# Environnement virtuel
+venv/
+env/
+__pycache__/
+
+# Données brutes ou traitées volumineuses
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# MLflow et artefacts
+mlruns/
+models/*.pkl
